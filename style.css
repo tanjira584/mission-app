@@ -4,6 +4,10 @@
     box-sizing: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.wrapper {
+    width: 85%;
+    margin: auto;
+}
 .home-area {
     padding: 0 0;
     padding-bottom: 50px;
@@ -61,4 +65,49 @@
 }
 .home-content p {
     color: #3d3d3d;
+}
+/*------Mission Area------*/
+.mission-area {
+    padding: 0px 0px 50px 0;
+}
+.section-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-info h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.section-info h1 span {
+    color: #00ddff;
+}
+.mission-row {
+    display: flex;
+}
+.mission-col {
+    width: 33.33%;
+}
+.mission-col .mission-box {
+    margin: 0 8px;
+    padding: 24px;
+    background-color: rgba(64, 190, 221, 0.212);
+    border-radius: 16px;
+}
+.mission-col:nth-child(2) .mission-box {
+    background-color: rgba(202, 133, 121, 0.199);
+}
+.mission-col:nth-child(3) .mission-box {
+    background-color: rgba(202, 121, 178, 0.13);
+}
+.mission-box img {
+    width: 50%;
+}
+.mission-box h3 {
+    text-transform: capitalize;
+    margin: 20px 0;
+    font-size: 22px;
+}
+.mission-box p {
+    color: #3d3d3d;
+    line-height: 1.6em;
 }
