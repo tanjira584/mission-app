@@ -111,3 +111,85 @@
     color: #3d3d3d;
     line-height: 1.6em;
 }
+.documentation-area {
+    padding: 50px 0;
+}
+.section-wrapper {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.doc-left,
+.com-right {
+    width: 40%;
+}
+.doc-img {
+    margin-right: 40px;
+}
+.doc-img img,
+.com-img img {
+    width: 100%;
+}
+.doc-right,
+.com-left {
+    width: 60%;
+}
+.doc-content {
+    padding: 0 20px;
+}
+.doc-content h2,
+.com-content h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.doc-content p,
+.com-content p {
+    font-weight: bold;
+    line-height: 1.6em;
+    color: #3d3d3d;
+    margin: 20px 0;
+}
+.doc-content a,
+.com-content a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #f90132;
+    color: #ffffff;
+    padding: 12px 34px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.community-area {
+    padding: 50px 0;
+}
+.com-img {
+    margin-left: 40px;
+}
+.com-content {
+    margin-right: 30px;
+}
+
+/*------Footer Area ------*/
+.footer-area {
+    padding: 30px 0;
+    background-color: #000000;
+}
+.footer-text {
+    text-align: center;
+}
+.footer-text h2 {
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footer-text h2 span {
+    color: #f90132;
+}
+.footer-text p {
+    color: #e6dfdf
+}
