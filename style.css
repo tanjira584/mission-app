@@ -50,11 +50,12 @@
     font-family: 'Abril Fatface', cursive;
     color: #fec669;
 }
-.home-content h5 {
-    font-size: 16px;
+#about-me {
+    font-size: 17px;
     line-height: 1.6em;
     color:#686868;
     margin-bottom: 20px;
+    font-weight: semi-bold;
 }
 a {
     display: inline-block;
